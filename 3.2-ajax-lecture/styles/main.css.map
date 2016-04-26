@@ -1,0 +1,7 @@
+{
+"version": 3,
+"mappings": "AAEA,cAAc;EACZ,OAAO,EAAE,KAAK",
+"sources": ["../sass/blocks/nav.sass"],
+"names": [],
+"file": "main.css"
+}
