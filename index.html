@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title data-js="title">Your profile</title>
+    <link rel="stylesheet" href="styles/main.css" charset="utf-8">
+  </head>
+  <body>
+    <div class="wrapper">
+
+      <div class="left_panel">
+        <section class="left_panel--content">
+          <h4 data-js="avatar_url">avatar_url</h4>
+          <h1 class="owner_name" data-js="owner_name">name</h1>
+          <h2 class="login" data-js="login">login</h2>
+          <h2 data-js="blog_name">blog</h2>
+          <!-- <span class="octicon-pin"></span> -->
+          <h2 class="location" data-js="location">location</h2>
+          <h3 class="email" data-js="email">email</h3>
+          <h3 class="join_date" data-js="join_date">join</h3>
+
+          <article class="connections">
+            <div class="connection__follower--number">
+              0 <span class="connection__follower--word">Followers</span>
+            </div>
+            <div class="connection__follower--number">
+              0 <span class="connection__follower--word">Starred</span>
+            </div>
+            <div class="connection__follower--number">
+              0 <span class="connection__follower--word">Following</span>
+            </div>
+          </article>
+
+          <article>
+            <h2 class="organizations">Organizations <span class="org_icon"></span></h2>
+          </article>
+        </section>
+      </div>
+
+      <main class="main__panel">
+        <nav class="main__nav">
+          <a class="main__nav--link" href="#Contributions">Contributions</a>
+          <a class="main__nav--link" href="#Repositories">Repositories</a>
+          <span class="main__nav--buttonArea"><a class="main__nav--link" href="#Public">Public activity</a><input type="button" name="edit_profile" value="Edit profile"></span>
+
+        </nav>
+        <h4 data-js="html_url">html_url</h4>
+        <h2>My repositories</h2>
+        <nav data-js="repo_list" data-js="repo_url"></nav>
+      </main>
+
+    </div>
+  </body>
+  <script type="text/javascript" src="js/main.js"></script>
+</html>
